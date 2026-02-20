@@ -24,6 +24,7 @@ c. Feature_Extraction/:
 d. Transcription_Extraction/: Automatically generated French transcriptions using Google ASR, along with the corresponding scripts and source files.
 e. Metadata/: Speaker-level information (Speaker ID, Gender, Status), a mapping between the original and new human-readable Clip IDs, and a script for metadata analysis and visualization.
 f. Environment_Information/: Hardware and software setup to ensure full reproducibility (Python version, libraries, etc.).
+
 2. Multilingual_Annotation
 Contains all experiments based on the new continuous annotations (0-100 scale) provided by English and French raters.
 a. Data_Management/:
@@ -53,6 +54,7 @@ d. Multimodal/:
 o Classification/ Predicts binary trait labels using multimodal inputs.
 o Regression/ Predicts continuous trait scores using multimodal inputs.
 * Fusion is implemented using mid-level and late-level strategies depending on the setup.
+
 3. Original_Annotation
 Contains experiments using the original discrete BFI-10 annotations, following the same updated experimental protocol applied in the Multilingual_annotation setup.
 * Mirrors the structure of the Multilingual_Annotation setup: Unimodal/, Multimodal/, Cross-Validation/, and Data_Management/, However, there are a few key differences:  
@@ -61,6 +63,7 @@ o Only classification tasks are included; regression is not applicable.
 o The Data_Annotation directory contains two sub folders: 
 - BFI_Item_Answers: 11 file csv format, each showing the answers of one rater to the 640 BFI-10 questionnaires corresponding to the audio clips
 - Personality_Scores: 11 CSV files, each containing final trait scores on a 1-5 Likert scale. Each score represents the computed value of a trait based on two BFI-10 questionnaire items per clip.
+
 4. README (This file)
 A text file providing all the necessary information to understand and use the benchmarking framework.
 
