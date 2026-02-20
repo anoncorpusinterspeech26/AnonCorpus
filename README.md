@@ -1,4 +1,4 @@
-📌 Introduction
+##📌 Introduction
 This version of the [anonymised corpus name] builds on the original release by addressing its main limitations and adding key enhancements to improve usability and research value.
 The dataset now includes:
 * Annotations from both English and French-speaking raters, offering perspectives across languages and cultures.
