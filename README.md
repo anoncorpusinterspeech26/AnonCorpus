@@ -1,4 +1,4 @@
-##📌 Introduction
+## 📌 Introduction
 This version of the [anonymised corpus name] builds on the original release by addressing its main limitations and adding key enhancements to improve usability and research value.
 The dataset now includes:
 * Annotations from both English and French-speaking raters, offering perspectives across languages and cultures.
@@ -11,8 +11,8 @@ The dataset now includes:
 * The full experimental pipeline, including configuration files, data splits, and environment details, is provided to support easy replication and extension.
 These refinements aim to support more consistent and flexible investigations into personality perception using speech.
 
-📁 Folder Structure Overview
-1. Dataset
+## 📁 Folder Structure Overview
+### 1. Dataset
 Contains the core data used across all experiments.
 a. Audio_clips/: 640 audio clips (10 seconds each, 16-bit, 8 kHz) in WAV format.
 b.  Experimental_Protocol/: Contains key documentation related to the experimental design and label processing.
@@ -25,7 +25,7 @@ d. Transcription_Extraction/: Automatically generated French transcriptions usin
 e. Metadata/: Speaker-level information (Speaker ID, Gender, Status), a mapping between the original and new human-readable Clip IDs, and a script for metadata analysis and visualization.
 f. Environment_Information/: Hardware and software setup to ensure full reproducibility (Python version, libraries, etc.).
 
-2. Multilingual_Annotation
+### 2. Multilingual_Annotation
 Contains all experiments based on the new continuous annotations (0-100 scale) provided by English and French raters.
 a. Data_Management/:
 * Tools and resources for annotation processing and statistical analysis.
@@ -55,7 +55,7 @@ o Classification/ Predicts binary trait labels using multimodal inputs.
 o Regression/ Predicts continuous trait scores using multimodal inputs.
 * Fusion is implemented using mid-level and late-level strategies depending on the setup.
 
-3. Original_Annotation
+### 3. Original_Annotation
 Contains experiments using the original discrete BFI-10 annotations, following the same updated experimental protocol applied in the Multilingual_annotation setup.
 * Mirrors the structure of the Multilingual_Annotation setup: Unimodal/, Multimodal/, Cross-Validation/, and Data_Management/, However, there are a few key differences:  
 o No distinction is made between annotation type (i.e., annotations are not split by English or French raters) or label source (i.e., labels are based only on raw scores without rater filtering).
@@ -64,10 +64,10 @@ o The Data_Annotation directory contains two sub folders:
 - BFI_Item_Answers: 11 file csv format, each showing the answers of one rater to the 640 BFI-10 questionnaires corresponding to the audio clips
 - Personality_Scores: 11 CSV files, each containing final trait scores on a 1-5 Likert scale. Each score represents the computed value of a trait based on two BFI-10 questionnaire items per clip.
 
-4. README (This file)
+### 4. README (This file)
 A text file providing all the necessary information to understand and use the benchmarking framework.
 
-🔁 Reproducibility Notes
+## 🔁 Reproducibility Notes
 * Audio clips were resampled to 16kHz only for Wav2Vec2 and Whisper extraction, ensuring compatibility with these deep learning models.
 * Feature extraction was performed using the following tools and sources:
 o Paralanguage:
@@ -80,5 +80,5 @@ o Language:
 * Environment information is available in the Environment_Information/ folder.
 * Config files include the predefined fold assignments and selected hyperparameters for each experiment, ensuring consistent and repeatable evaluation.
 
-📞 Contact
+## 📞 Contact
 For more details, contact ........
