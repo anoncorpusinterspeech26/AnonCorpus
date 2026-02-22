@@ -76,10 +76,20 @@ A text file providing all the necessary information to understand and use the be
     * Wav2Vec2.0: Used via HuggingFace Transformers. Provided two representations - Encoder output (512-dimensional per frame) and Transformer output from Layer 24 (1024-dimensional per frame).
     * Whisper: Used with the SpeechBrain implementation. Extracted encoder-only outputs (384-dimensional per frame), excluding the decoder to avoid language bias.
   * Language:
-    * Word2Vec: Used to obtain static word-level embeddings (200-dimensional per token) from Google's model pre-trained model.
+    * Word2Vec: Used via HuggingFace to obtain static word-level embeddings (200-dimensional per token) from a pre-trained French Word2Vec model.
     * BERT: Used via HuggingFace to generate contextual embeddings (300-dimensional per token) based on the BERT base model.
 * Environment information is available in the Environment_Information/ folder.
 * Config files include the predefined fold assignments and selected hyperparameters for each experiment, ensuring consistent and repeatable evaluation.
 
 ## 📞 Contact
-For more details, contact ........
+For more details, contact
+...
+____________________________________________________________________________________________________________________________________________________________
+
+## 📜 License
+This dataset is released for research purposes only
+...
+
+## 📖 Citation
+If you use this dataset, please cite:
+...
