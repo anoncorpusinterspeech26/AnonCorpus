@@ -10,7 +10,7 @@ The dataset now includes:
 * Language and paralanguage features extracted using modern tools (e.g., Word2Vec, BERT, eGeMAPS, Wav2Vec2.0, Whisper).
 * The full experimental pipeline, including configuration files, data splits, and environment details, is provided to support easy replication and extension.
 
-These refinements aim to support more consistent and flexible investigations into personality perception using speech.
+These refinements aim to enable more consistent and flexible investigations into personality perception from speech.
 
 ## 📁 Folder Structure Overview
 ### 1. Dataset
