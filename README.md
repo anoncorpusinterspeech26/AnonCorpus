@@ -1,3 +1,9 @@
+🔗 Dataset Access
+
+The dataset is publicly available at the following link:
+
+[Access the dataset](https://drive.google.com/drive/folders/1k0GduQ_6wwvQdorvMwHQ91284J-7AEqd?usp=sharing)
+
 ## 📌 Introduction
 This version of the [anonymised corpus name] builds on the original release by addressing its main limitations and adding key enhancements to improve usability and research value.
 The dataset now includes:
