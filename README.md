@@ -1,4 +1,4 @@
-# SSPNet SPC2.0
+# AnonCorpus
 🔗 Dataset Access
 
 The dataset is publicly available at the following link:
